@@ -4,7 +4,6 @@ public class Zebra extends Animal{
 
 	public Zebra(String nume) {
 		super(nume);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
@@ -12,6 +11,4 @@ public class Zebra extends Animal{
 		System.out.println("Zebra " + super.getNume() +" a mancat " + mancare);
 	}
 	
-	
-
 }

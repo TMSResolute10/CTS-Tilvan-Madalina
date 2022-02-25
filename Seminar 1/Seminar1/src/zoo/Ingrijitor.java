@@ -5,7 +5,6 @@ public class Ingrijitor {
 	private String nume;
 	
 	public Ingrijitor(String nume) {
-		super();
 		this.nume = nume;
 	}
 
@@ -16,10 +15,5 @@ public class Ingrijitor {
 	public String getNume() {
 		return nume;
 	}
-
-	public void setNume(String nume) {
-		this.nume = nume;
-	}
-	
-	
+		
 }
