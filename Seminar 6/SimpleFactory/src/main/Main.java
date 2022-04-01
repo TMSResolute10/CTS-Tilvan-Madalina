@@ -10,7 +10,7 @@ public class Main {
 		MijlocTransport autobuz = fabrica.getMijlocTransport(TipTransport.Autobuz, "AU20");
 		MijlocTransport tramvai = fabrica.getMijlocTransport(TipTransport.Tramvai, "TR90");
 		MijlocTransport troleibuz = fabrica.getMijlocTransport(TipTransport.Troileibuz, "TRO43");
-		
+
 		autobuz.afisareNrInmatriculare();
 		tramvai.afisareNrInmatriculare();
 		troleibuz.afisareNrInmatriculare();
